@@ -3,7 +3,7 @@
   padding: 8px 2px;
   margin: 0;
 }
-#part-two{
+#part-two,#part-three{
   overflow: auto;
 }
 .one,.two,.three{
@@ -21,4 +21,7 @@
 }
 .two{
   float: left;
+}
+.three{
+  float: right;
 }
