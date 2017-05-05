@@ -1,9 +1,11 @@
 window.addEventListener("load",function() {
-
-var sec= document.getElementById('part-one');
 for(var i =0;i<=2;i++){
   var div= document.createElement("div");
   div.classList.add("one");
-  sec.appendChild(div);
+  document.getElementById('part-one').appendChild(div);
+
+  var divDos= document.createElement("div");
+  divDos.classList.add("two");
+  document.getElementById('part-two').appendChild(divDos);
 }
 });

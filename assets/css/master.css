@@ -1,18 +1,24 @@
 *{
   box-sizing: border-box;
-  padding: 2px;
+  padding: 8px 2px;
   margin: 0;
 }
-.one{
+#part-two{
+  overflow: auto;
+}
+.one,.two,.three{
   width: 150px;
   height: 150px;
 }
-.one:first-child{
+.one:first-child,.two:first-child,.three:first-child{
   background-color: yellow;
 }
-.one:nth-child(2){
+.one:nth-child(2),.two:nth-child(2),.three:nth-child(2){
   background-color: blue;
 }
-.one:nth-child(3){
+.one:nth-child(3),.two:nth-child(3),.three:nth-child(3){
   background-color: red;
+}
+.two{
+  float: left;
 }
